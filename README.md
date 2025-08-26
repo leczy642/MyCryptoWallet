@@ -49,8 +49,8 @@ It allows the contract owner (or users, depending on setup) to **send ETH** secu
 - An Ethereum testnet account with test ETH (Goerli, Sepolia, etc.)
 
 ### Installation
-`git clone https://github.com/yourusername/MyCryptoWallet.git`
-`cd MyCryptoWallet`
+`git clone https://github.com/yourusername/MyCryptoWallet.git`<br/>
+`cd MyCryptoWallet`<br/>
 `npm install`
 
 ### compile contract
