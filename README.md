@@ -32,7 +32,7 @@ It allows the contract owner (or users, depending on setup) to **send ETH** secu
 
 - **Functions**
   - `sendETH(address payable _to, uint256 _amount)` → Send ETH to a specified user.
-  - `updateRecipient()` → View the wallet’s ETH balance.
+  - `updateRecipient()` → update recipient address ETH.
   - `getBalance()` → View the wallet’s ETH balance.
 
 - **Events** 
@@ -64,8 +64,8 @@ It allows the contract owner (or users, depending on setup) to **send ETH** secu
 `await myCryptoWallet.sendETH("0xRecipientAddressHere", ethers.utils.parseEther("0.5"));`
 
 ### Check balance
-`const balance = await myCryptoWallet.getBalance()`
-`console.log("Wallet Balance:", ethers.utils.formatEther(balance))`
+`const balance = await myCryptoWallet.getBalance()`<br/>
+`console.log("Wallet Balance:", ethers.utils.formatEther(balance))`<br/>
 
 🧪 Testing
 `npx hardhat test`
