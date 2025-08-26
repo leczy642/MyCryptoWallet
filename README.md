@@ -67,18 +67,18 @@ It allows the contract owner (or users, depending on setup) to **send ETH** secu
 `const balance = await myCryptoWallet.getBalance()`<br/>
 `console.log("Wallet Balance:", ethers.utils.formatEther(balance))`<br/>
 
-🧪 Testing <br/>
+### 🧪 Testing <br/>
 `npx hardhat test`
 
-🔒 Security
+### 🔒 Security
 
 * Only valid Ethereum addresses can receive ETH.
 * Ensure private keys are stored securely when deploying.
 * Always test thoroughly on testnets before mainnet deployment.
 
-📜 License <br/>
+### 📜 License <br/>
 This project is licensed under the MIT License – feel free to use and modify.
 
-👨‍💻 Author
+### 👨‍💻 Author
 
 Built with ❤️ by Alexander Irabor
