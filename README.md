@@ -16,12 +16,12 @@ It allows the contract owner (or users, depending on setup) to **send ETH** secu
 ## 📂 Project Structure
 <br/>MyCryptoWallet/
 <br/>│── contracts/
-│ └── EthSend.sol
-| └── Greeter.sol
-│── scripts/
-│ └── deployEthSend.js
-│── test/
-│── README.md
+<br/>│ └── EthSend.sol
+<br/>| └── Greeter.sol
+<br/>│── scripts/
+<br/>│ └── deployEthSend.js
+<br/>│── test/
+<br/>│── README.md
 
 
 ---
