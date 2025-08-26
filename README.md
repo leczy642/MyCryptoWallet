@@ -14,8 +14,8 @@ It allows the contract owner (or users, depending on setup) to **send ETH** secu
 ---
 
 ## 📂 Project Structure
-MyCryptoWallet/
-│── contracts/
+<br/>MyCryptoWallet/
+<br/>│── contracts/
 │ └── EthSend.sol
 | └── Greeter.sol
 │── scripts/
